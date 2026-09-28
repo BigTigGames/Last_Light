@@ -75,3 +75,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 *LightingData.asset
 *OcclusionCullingData.asset
+unstaged_files.txt
