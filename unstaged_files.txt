@@ -1,0 +1,70 @@
+.gitignore
+Assets/BK.meta
+Assets/BK/
+Assets/BOXOPHOBIC.meta
+Assets/BOXOPHOBIC/
+Assets/Boat.meta
+Assets/Boat/
+Assets/Custom_Assets.meta
+Assets/Custom_Assets/
+"Assets/Daniel Mistage.meta"
+"Assets/Daniel Mistage/"
+Assets/Enviornment_Scene/
+Assets/InputSystem_Actions.inputactions
+Assets/InputSystem_Actions.inputactions.meta
+Assets/Main_Character.meta
+Assets/Main_Character/
+Assets/Polyart.meta
+Assets/Polyart/PolyartStudio.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Animations.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Animations/
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Materials.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Materials/
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Meshes.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Meshes/
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Deer.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Deer/
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Foliage.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Foliage/
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/BambooFences.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/BambooFences/PF_EastLands_BambooFence_A_01.prefab
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/BambooFences/PF_EastLands_BambooFence_A_01.prefab.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/BambooFences/PF_EastLands_BambooFence_A_02.prefab
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/BambooFences/PF_EastLands_BambooFence_A_02.prefab.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/BambooSteps.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Banners.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Boat.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Bridge.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Graveyard.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Lamps.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Logs.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Ropes.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/Statues.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/StoneStairsWalls.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/WoodenProps.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/WoodenProps.meta.private.0
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Props/WoodenProps.meta.private.0.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Stones.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Prefabs/Water.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Scenes.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Scenes/DemoScene_Day/LightingData.asset.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Skybox.meta
+Assets/Polyart/PolyartStudio/DreamscapeEastLands/Textures.meta
+Assets/Polyart/PolyartStudio/Farmlands.meta
+Assets/Polyart/PolyartStudio/README.txt
+Assets/Polyart/PolyartStudio/README.txt.meta
+Assets/Polyart/PolyartStudio/SharedResources.meta
+Assets/Raygeas.meta
+Assets/Scenes.meta
+Assets/Settings.meta
+"Assets/Starter Assets.meta"
+"Assets/Stylized Water 3.meta"
+"Assets/Terrain Layers.asset"
+"Assets/Terrain Layers.asset.meta"
+"Assets/TriForge Assets.meta"
+Assets/_Recovery.meta
+Assets/_Recovery/
+unstaged_files.txt
