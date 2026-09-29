@@ -46,8 +46,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WindStrength: 0.219
+  EnableTreeColorVariance: 1
+  ColorVarianceIntensity: 0.1
+  ColorVarianceBiasShift: 0.1
+  ColorVarianceMin: -0.15
+  ColorVarianceMax: 0.15
+  BrightnessVariance: 0
+  ColorVarianceMaskScale: 100
+  EnableGrassColorVariance: 1
+  GrassVarianceIntensity: 0.1
+  GrassVarianceBiasShift: 0.1
+  GrassVarianceMin: -0.15
+  GrassVarianceMax: 0.15
+  GrassBrightnessVariance: 0
+  GrassVarianceRootInfluence: 0
+  GrassVarianceMaskScale: 100
+  EnableGrassWind: 1
   GrassWindRotationMapInfluence: 1
   GrassWindStrength: 1.55
+  GrassFadeDistance: 1
 --- !u!182 &2235562672008828149
 WindZone:
   m_ObjectHideFlags: 0
