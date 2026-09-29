@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9eee95d763252b42a920804ae487217
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 36300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 326216
+  packageName: 'EASTLANDS : Stylized Asian Environment'
+  packageVersion: 1.21
+  assetPath: Assets/Polyart/PolyartStudio/DreamscapeEastLands/Scenes/DemoScene_Nightt/OcclusionCullingData.asset
+  uploadId: 853716
