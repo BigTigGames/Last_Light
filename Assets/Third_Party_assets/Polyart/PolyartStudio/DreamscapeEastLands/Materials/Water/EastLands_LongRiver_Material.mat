@@ -127,22 +127,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _A: 0.61
-    - _AlphaCutoff: 0.5
     - _B: 0.01
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
@@ -198,7 +185,6 @@ Material:
     - _EdgeSpeedMultiplier: 0.103
     - _EdgeSpeedThickness: 0.78
     - _EdgeWaterDepth: 1.21
-    - _EnvironmentReflections: 1
     - _FlatWaterSmallDotsOpacity: 0.5
     - _FlatWaterSmallDotsStep: 0.848
     - _Float0: 0.902
@@ -263,9 +249,6 @@ Material:
     - _NormalsStrength: 0.223
     - _NormalsUVScale: 6.26
     - _OpacityDepth: 0.82
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
     - _Refraction: 0.0604
     - _Refraction1: 0.0099
     - _RefractionIndex: 1
@@ -280,7 +263,6 @@ Material:
     - _SlopeSpeedMultiplier: 6.2
     - _Smoothness: 1
     - _Specular: 0.5
-    - _SpecularHighlights: 1
     - _SteepVoronoiDistortion: 0.054
     - _SteepVoronoiOpacity: 0.017
     - _SteepVoronoiSpeed: 0.24
@@ -329,6 +311,4 @@ Material:
     - _ColorDeep: {r: 0.03422562, g: 0.4366008, b: 0.7886792, a: 1}
     - _ColorShallow: {r: 0, g: 0.4197596, b: 0.5018867, a: 1}
     - _EdgeColor: {r: 0, g: 0.44102192, b: 1, a: 0}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
