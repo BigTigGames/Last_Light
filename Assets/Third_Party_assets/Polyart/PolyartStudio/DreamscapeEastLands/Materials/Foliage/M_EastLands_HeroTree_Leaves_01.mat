@@ -16,7 +16,7 @@ Material:
   - _USE_WPO
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -91,17 +91,8 @@ Material:
     - _Alpha_Clip: 0.485
     - _Always_On_Fresnel_Intensity: 0.53
     - _Always_On_Fresnel_Pow: 3.64
-    - _BUILTIN_AlphaClip: 1
-    - _BUILTIN_Blend: 0
-    - _BUILTIN_CullMode: 0
-    - _BUILTIN_DstBlend: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _BUILTIN_SrcBlend: 1
-    - _BUILTIN_Surface: 0
-    - _BUILTIN_ZTest: 4
-    - _BUILTIN_ZWrite: 1
-    - _BUILTIN_ZWriteControl: 0
     - _BumpScale: 1
     - _Color_Map_Tiling: 1
     - _Color_Variation_Contrast: 1
@@ -124,7 +115,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _QueueControl: 0
+    - _QueueControl: -1
     - _QueueOffset: 0
     - _Roughness: 1
     - _SmoothnessTextureChannel: 0
@@ -135,8 +126,6 @@ Material:
     - _Subsurface_Fresnel_Transition_Smoothness: 1
     - _Subsurface_Intensity: 1
     - _Subsurface_Transition_Smoothness: 1
-    - _Sway_Height_Gradience: 0
-    - _Sway_Height_Weight: 0
     - _Sway_Wind_Intensity: 0.6
     - _Sway_Wind_Speed: 1.5
     - _Sway_Wind_Time_Random_Offset_Amount: 0
@@ -154,7 +143,6 @@ Material:
     - _Always_On_Fresnel_Color: {r: 0.49549136, g: 0.46297613, b: 0.6415094, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _Foliage_Color_Bottom: {r: 0.71960664, g: 0.9684661, b: 0.9716981, a: 1}
     - _Foliage_Color_Top: {r: 1, g: 1, b: 1, a: 1}
     - _Sway_Wind_Direction: {r: 1, g: 0, b: 0, a: 0}
