@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc9e8ccf7e1f314da24a604c1a11094, type: 3}
   m_Name: Partly Cloudy
   m_EditorClassIdentifier: 
-  minWeatherTime: 0.125
-  maxWeatherTime: 0.33333334
-  likelihood: 1
+  minTime: 0.2846442
+  maxTime: 0.30406523
+  chance:
+    baseChance: 1
+    chanceEffectors: []
   forecastNext:
   - {fileID: 11400000, guid: 48908a08bbd076e4182bc3ca961b9c34, type: 2}
   - {fileID: 11400000, guid: df6d6974e6130cf4ba80f13cf41ae5f4, type: 2}
@@ -22,8 +24,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5a5650a48d2869048b392b88aab5df10, type: 2}
   - {fileID: 11400000, guid: 56652bb77d1606b4396767fbb07e50ab, type: 2}
   - {fileID: 11400000, guid: ccbfe05b7967917448c280fffa3a86d1, type: 2}
-  forecastModifierMethod: 0
-  chances: []
+  forecastModifierMethod: 2
   FX:
   - {fileID: 11400000, guid: 4fad40160918ef04e9ab8a44f8f31ab1, type: 2}
   - {fileID: 11400000, guid: 485b0d34053264f44afdb830525cd648, type: 2}
