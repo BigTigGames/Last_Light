@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a981d06e27d24af8838b12213e0e9a5c, type: 3}
+  m_Name: River Audio Profile (Default)
+  m_EditorClassIdentifier: 
+  stream:
+    clip: {fileID: 8300000, guid: 68b2825bfd109ac45ad543b73245f1b8, type: 3}
+    volume: 1
+    pitchVariation: 10
+    audibleDistance: 50
+  rapids:
+    clip: {fileID: 8300000, guid: 2abeef0b96f78b649817f0c2d3373946, type: 3}
+    volume: 1
+    pitchVariation: 10
+    audibleDistance: 70
+  cascade:
+    clip: {fileID: 8300000, guid: 72368034c2551a24fbb9168d327a1b41, type: 3}
+    volume: 1
+    pitchVariation: 10
+    audibleDistance: 100
+  mixerGroup: {fileID: 0}

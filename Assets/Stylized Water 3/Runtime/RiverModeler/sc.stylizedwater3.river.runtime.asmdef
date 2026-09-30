@@ -1,0 +1,49 @@
+{
+    "name": "sc.stylizedwater3.river.runtime",
+    "rootNamespace": "",
+    "references": [
+        "sc.stylizedwater3.runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.Splines",
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.VisualEffectGraph.Runtime",
+        "JBooth.MicroVerseCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "17.0.3",
+            "define": "URP"
+        },
+        {
+            "name": "com.unity.visualeffectgraph",
+            "expression": "17.0.3",
+            "define": "VFX_GRAPH"
+        },
+        {
+            "name": "com.unity.splines",
+            "expression": "2.4.0",
+            "define": "SPLINES"
+        },
+        {
+            "name": "com.unity.burst",
+            "expression": "1.8.23",
+            "define": "BURST"
+        },
+        {
+            "name": "com.jbooth.microverse.splines",
+            "expression": "1.7.0",
+            "define": "MICROVERSE"
+        }
+    ],
+    "noEngineReferences": false
+}

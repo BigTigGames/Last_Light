@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb4625a3ed5e455caa2acd11803809f0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - material: {fileID: 2100000, guid: bc0e4b60f99d22e47ac795dbaba30831, type: 2}
+  - foamVFX: {fileID: 8926484042661614526, guid: f91270c6f4288ea4f98d1de4a62067fa, type: 3}
+  - _splineContainer: {instanceID: 0}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 6e964ef4f24cf22468eb67555b1919f2, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
