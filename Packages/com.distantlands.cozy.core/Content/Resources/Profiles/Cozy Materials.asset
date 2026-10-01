@@ -73,8 +73,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: d40ab38b86df56649b580f6f4c6227f8,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: d40ab38b86df56649b580f6f4c6227f8, type: 2}
     targetMaterial: {fileID: 0}
     targetVariableName: 
   - modulationSource: 1
@@ -133,8 +132,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: d40ab38b86df56649b580f6f4c6227f8,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: d40ab38b86df56649b580f6f4c6227f8, type: 2}
     targetMaterial: {fileID: 0}
     targetVariableName: 
   - modulationSource: 1
@@ -193,8 +191,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: e1bd59b534bee9a47b8348d5bab989e0, type: 2}
     targetVariableName: _BaseColor
   - modulationSource: 1
@@ -253,8 +250,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: 2bd5492c9cd108a4f88840897193af75, type: 2}
     targetVariableName: _TopColor
   - modulationSource: 1
@@ -313,8 +309,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: 2bd5492c9cd108a4f88840897193af75, type: 2}
     targetVariableName: _BottomColor
   - modulationSource: 1
@@ -373,8 +368,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: eb7a3936ed0c129469d6714f4c9e8c9b, type: 2}
     targetVariableName: _FilterColor
   - modulationSource: 1
@@ -433,8 +427,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: 42932dd051b572e4ba2ec8df5e1674dc, type: 2}
     targetVariableName: _FilterColor
   - modulationSource: 1
@@ -529,8 +522,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: 42932dd051b572e4ba2ec8df5e1674dc, type: 2}
     targetVariableName: _AlphaClip
   - modulationSource: 1
@@ -589,7 +581,6 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc,
-      type: 2}
+    targetLayer: {fileID: 8574412962073106934, guid: f1ef5cbee8e42e043a5deedb8b4e70fc, type: 2}
     targetMaterial: {fileID: 2100000, guid: eaf7b81faf7cf684889cedd72fce66bb, type: 2}
     targetVariableName: _BaseColor
