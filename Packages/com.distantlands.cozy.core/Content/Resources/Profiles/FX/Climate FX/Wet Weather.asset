@@ -36,13 +36,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  VFXMod: {fileID: 0}
   temperatureOffset:
     value: 0
     overrideValue: 0
   precipitationOffset:
     value: 30
     overrideValue: 1
-  weight:
-    value: 0
-    overrideValue: 0
