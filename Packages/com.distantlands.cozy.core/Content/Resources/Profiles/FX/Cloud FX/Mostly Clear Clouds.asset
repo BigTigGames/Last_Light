@@ -36,7 +36,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  VFXMod: {fileID: 0}
   cumulusCoverage:
     value: 0.1
     overrideValue: 1
@@ -73,4 +72,3 @@ MonoBehaviour:
   fogDensity:
     value: 1
     overrideValue: 0
-  weight: 1

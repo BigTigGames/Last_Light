@@ -36,5 +36,5 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  VFXMod: {fileID: 0}
   particleSystem: {fileID: 9201063887041013519, guid: 7264aba4468da5941b614c6f0d4afef4, type: 3}
+  autoScale: 0
