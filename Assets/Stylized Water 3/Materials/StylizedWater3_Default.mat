@@ -18,6 +18,7 @@ Material:
   - _INTERSECTION_FOAM
   - _NORMALMAP
   - _REFRACTION
+  - _RIVER
   - _SURFACE_FOAM_SINGLE
   - _TRANSLUCENCY
   - _WAVES
@@ -32,7 +33,6 @@ Material:
   - _RECEIVEDYNAMICEFFECTSHEIGHT_ON
   - _RECEIVEDYNAMICEFFECTSNORMAL_ON
   - _RECEIVEDYNAMICEFFECTS_ON
-  - _RIVERMODELEGACY_ON
   - _SCREENSPACEREFLECTIONSENABLED_ON
   - _SHARP_INERSECTION
   - _SIMPLE_LIGHTING
@@ -268,8 +268,8 @@ Material:
     - _RefractionStrength: 0.105
     - _RimRize: 1
     - _RimTiling: 0.025
-    - _RiverModeLegacy: 1
-    - _RiverModeOn: 0
+    - _RiverModeLegacy: 0
+    - _RiverModeOn: 1
     - _SHARP_INERSECTIONOn: 1
     - _ScreenSpaceReflectionsEnabled: 1
     - _ShadingMode: 1
@@ -281,8 +281,8 @@ Material:
     - _SlopeAngleFalloff: 25
     - _SlopeAngleThreshold: 15
     - _SlopeFoam: 1
-    - _SlopeSpeed: 4
-    - _SlopeStretching: 0.5
+    - _SlopeSpeed: 7.43
+    - _SlopeStretching: 0.964
     - _SlopeThreshold: 0.25
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -317,9 +317,9 @@ Material:
     - _WaveDistance: 0.775
     - _WaveDistortion: 0.5
     - _WaveFrequency: 0.8
-    - _WaveHeight: 0.1
+    - _WaveHeight: 0.78
     - _WaveMaxLayers: 64
-    - _WaveNormalStr: 0.1
+    - _WaveNormalStr: 0
     - _WaveSpeed: 2.3999996
     - _WaveSteepness: 0
     - _WaveTint: 0
