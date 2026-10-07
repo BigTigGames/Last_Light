@@ -17,12 +17,12 @@ MonoBehaviour:
   useLeapYear: 1
   resetTimeOnStart: 0
   startTime:
-    hours: 9
+    hours: 8
     minutes: 0
     seconds: 0
     milliseconds: 0
     timeAsPercentage: 0
-  timeMovementSpeed: 2.1
+  timeMovementSpeed: 0.96
   modulateTimeSpeed: 0
   timeSpeedMultiplier:
     serializedVersion: 2
