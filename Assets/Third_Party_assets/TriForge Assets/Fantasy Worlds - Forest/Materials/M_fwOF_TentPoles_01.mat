@@ -57,6 +57,54 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Layer1BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer4BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer4MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer4NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _LayerAlbedo:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -94,6 +142,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture7:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -140,6 +200,32 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Layer1AOIntensity: 1
+    - _Layer1BlendMidLevel: 1
+    - _Layer1HighLevel: 1
+    - _Layer1LowLevel: 0
+    - _Layer1NormalIntensity: 1
+    - _Layer1Smoothness: 1
+    - _Layer1UseAOasHeight: 0
+    - _Layer2BlendMidLevel: 1
+    - _Layer2BlendSharpness: 5
+    - _Layer2HighLevel: 1
+    - _Layer2LowLevel: 0
+    - _Layer2NormalIntensity: 1
+    - _Layer2Smoothness: 1
+    - _Layer2UseAOasHeight: 0
+    - _Layer3AOIntensity: 1
+    - _Layer3BlendMidLevel: 1
+    - _Layer3BlendSharpness: 1
+    - _Layer3HighLevel: 1
+    - _Layer3LowLevel: 0
+    - _Layer3NormalIntensity: 0
+    - _Layer3Smoothness: 1
+    - _Layer3UseAOasHeight: 0
+    - _Layer4AOIntensity: 1
+    - _Layer4BlendSharpness: 3
+    - _Layer4NormalIntensity: 0
+    - _Layer4Smoothness: 1
     - _LayerAOStrength: 0
     - _LayerHeightMapInfluence: 1
     - _LayerMaskMode: 0
@@ -172,6 +258,10 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Layer1Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Layer2Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Layer3Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Layer4Color: {r: 1, g: 1, b: 1, a: 0}
     - _LayerColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

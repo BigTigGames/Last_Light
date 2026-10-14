@@ -15,6 +15,7 @@ Material:
   - _ADVANCED_SHADING
   - _CAUSTICS
   - _DISTANCE_NORMALS
+  - _INTERSECTION_FOAM
   - _NORMALMAP
   - _REFRACTION
   - _RIVER
@@ -84,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IntersectionNoise:
-        m_Texture: {fileID: 2800000, guid: f8c7522379eccbf46bb5473bd771e5cd, type: 3}
+        m_Texture: {fileID: 2800000, guid: b6d3e8158e6f65a4594526663ad7a894, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -142,7 +143,7 @@ Material:
     - _CausticsOn: 1
     - _CausticsSpeed: 0.01
     - _CausticsTiling: 0.1
-    - _ColorAbsorption: 0.95
+    - _ColorAbsorption: 0.087
     - _Cull: 2
     - _Cutoff: 0.5
     - _Depth: 2.07
@@ -151,9 +152,9 @@ Material:
     - _DepthOffset: 0
     - _DepthVertical: 16
     - _DisableDepthTexture: 0
-    - _DistanceFoamTiling: 0.15000004
+    - _DistanceFoamTiling: 0.2
     - _DistanceNormalsOn: 1
-    - _DistanceNormalsTiling: 0.020000007
+    - _DistanceNormalsTiling: 0.05
     - _DstBlend: 0
     - _EdgeFade: 21.89
     - _EnableDirectionalCaustics: 1
@@ -186,27 +187,27 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HorizonDistance: 7.7
-    - _IntersectionClipping: 0.166
-    - _IntersectionDistortion: 0.2
-    - _IntersectionFalloff: 0.355
-    - _IntersectionFoamOn: 0
-    - _IntersectionLength: 1.48
-    - _IntersectionRippleDist: 64
-    - _IntersectionRippleSpeed: 2
-    - _IntersectionRippleStrength: 0
+    - _IntersectionClipping: 0.706
+    - _IntersectionDistortion: 0
+    - _IntersectionFalloff: 1
+    - _IntersectionFoamOn: 1
+    - _IntersectionLength: 3
+    - _IntersectionRippleDist: 32
+    - _IntersectionRippleSpeed: 3
+    - _IntersectionRippleStrength: 0.5
     - _IntersectionSharp: 1
     - _IntersectionSource: 0
-    - _IntersectionSpeed: 0.01
+    - _IntersectionSpeed: 0.1
     - _IntersectionStyle: 2
-    - _IntersectionTiling: 0.4
+    - _IntersectionTiling: 0.059999757
     - _LegacyRiverMode: 0
     - _LightingOn: 1
     - _Metallic: 0
     - _NormalMapOn: 1
     - _NormalSpeed: 1
-    - _NormalStrength: 0.183
-    - _NormalSubSpeed: 1
-    - _NormalSubTiling: 4
+    - _NormalStrength: 0.202
+    - _NormalSubSpeed: -0.8
+    - _NormalSubTiling: 0.49
     - _NormalTiling: 0.5
     - _OcclusionStrength: 1
     - _PlanarReflectionsEnabled: 0
@@ -224,7 +225,7 @@ Material:
     - _ReceiveShadows: 1
     - _ReflectionBlur: 0
     - _ReflectionDistortion: 0.268
-    - _ReflectionFresnel: 8
+    - _ReflectionFresnel: 6
     - _ReflectionLighting: 0
     - _ReflectionStrength: 1
     - _RefractionChromaticAberration: 1
@@ -245,14 +246,14 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SparkleIntensity: 0
-    - _SparkleSize: 0.487
+    - _SparkleSize: 0.302
     - _SpecularHighlights: 1
     - _SpecularReflectionsOn: 1
     - _Speed: 16
     - _SrcBlend: 1
-    - _SunReflectionDistortion: 0.705
+    - _SunReflectionDistortion: 0.762
     - _SunReflectionSharp: 0
-    - _SunReflectionSize: 0.845
+    - _SunReflectionSize: 0.932
     - _SunReflectionStrength: 10
     - _Surface: 0
     - _TranslucencyCurvatureMask: 0.825
@@ -282,19 +283,19 @@ Material:
     - _ZClip: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.16451614, b: 0.34, a: 0.98039216}
+    - _BaseColor: {r: 0, g: 0.16451614, b: 0.34, a: 0.9647059}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Direction: {r: 0, g: -1, b: 0, a: 0}
-    - _DistanceFoamFadeDist: {r: 10, g: 260, b: 0, a: 0}
-    - _DistanceNormalsFadeDist: {r: 32, g: 250, b: 0, a: 0}
+    - _DistanceFoamFadeDist: {r: 100, g: 350, b: 0, a: 0}
+    - _DistanceNormalsFadeDist: {r: 69.23079, g: 276.9231, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.92941177}
     - _FoamCrestMinMaxHeight: {r: 2.0000002, g: 3, b: 0, a: 0}
     - _FoamTiling: {r: 0.099999994, g: 0.099999994, b: 0, a: 0}
-    - _HorizonColor: {r: 0.68, g: 1, b: 0.99, a: 0}
+    - _HorizonColor: {r: 0.68, g: 1, b: 0.99, a: 0.15}
     - _IntersectionColor: {r: 1, g: 1, b: 1, a: 0.46666667}
-    - _NormalTiling: {r: 0.06000001, g: 0.06000001, b: 0, a: 0}
-    - _ShallowColor: {r: 0, g: 1, b: 0.98136926, a: 0}
+    - _NormalTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _ShallowColor: {r: 0, g: 1, b: 0.98136926, a: 0.3764706}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WaveDirection: {r: 2, g: 1, b: 2, a: 1}
     - _WaveFadeDistance: {r: 0, g: 150, b: 0, a: 0}

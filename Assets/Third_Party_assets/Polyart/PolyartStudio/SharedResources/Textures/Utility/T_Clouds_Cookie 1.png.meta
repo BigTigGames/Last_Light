@@ -1,5 +1,13 @@
 fileFormatVersion: 2
 guid: 71d038c44fdac6a468959ad7f96e5e61
+AssetOrigin:
+  serializedVersion: 1
+  productId: 326216
+  packageName: 'EASTLANDS : Stylized Asian Environment'
+  packageVersion: 1.21
+  assetPath: Assets/Polyart/PolyartStudio/SharedResources/Textures/Utility/T_Clouds_Cookie
+    1.png
+  uploadId: 853716
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,9 +75,9 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -80,7 +88,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,6 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 
@@ -106,17 +115,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 326216
-  packageName: 'EASTLANDS : Stylized Asian Environment'
-  packageVersion: 1.21
-  assetPath: Assets/Polyart/PolyartStudio/SharedResources/Textures/Utility/T_Clouds_Cookie
-    1.png
-  uploadId: 853716

@@ -37,6 +37,18 @@ Shader "TriForge/Two Layer Blend"
 		_LayerTiling( "Layer Tiling", Range( 0.1, 5 ) ) = 1
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 
+		// SRP Batcher / GPU Resident Drawer fix.
+		// UnityPerMaterial declares _TopTexture0_ST / _TopTexture6_ST / _TopTexture7_ST, but no
+		// matching shader property existed for them, so the SRP Batcher validator reported
+		// "UnityPerMaterial var is not declared in shader property section" and no pass of this
+		// shader could be issued by the BatchRendererGroup (GPU Resident Drawer). Declaring the
+		// base 2D properties restores the auto-generated *_ST vectors.
+		// Additive only: existing Properties entries and every UnityPerMaterial CBUFFER layout
+		// are left byte-identical.
+		[HideInInspector] _TopTexture0( "Top Texture 0", 2D ) = "white" {}
+		[HideInInspector] _TopTexture6( "Top Texture 6", 2D ) = "white" {}
+		[HideInInspector] _TopTexture7( "Top Texture 7", 2D ) = "white" {}
+
 
 		//_TransmissionShadow( "Transmission Shadow", Range( 0, 1 ) ) = 0.5
 		//_TransStrength( "Trans Strength", Range( 0, 50 ) ) = 1

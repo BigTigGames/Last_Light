@@ -18,9 +18,10 @@ MonoBehaviour:
     allow: 1
     reflectEverything: 0
   allowDirectionalCaustics: 0
+  enableDepthPrePass: 0
   heightPrePassSettings:
     enable: 1
-    range: 500
+    range: 300
     cellsPerUnit: 4
     maxResolution: 4096
     disableInSceneView: 1

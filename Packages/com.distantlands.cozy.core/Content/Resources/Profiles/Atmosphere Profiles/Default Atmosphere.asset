@@ -2105,7 +2105,7 @@ MonoBehaviour:
   sunColor:
     overrideValue: 1
     mode: 1
-    colorVal: {r: 10.432951, g: 10.432951, b: 10.432951, a: 1}
+    colorVal: {r: 7.358616, g: 5.3556547, b: 1.2842867, a: 1}
     gradientVal:
       serializedVersion: 2
       key0: {r: 1, g: 1, b: 1, a: 1}
@@ -3023,78 +3023,24 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 1
+    floatVal: 15.3
     curveVal:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.9175132
-        inSlope: -0
-        outSlope: -0
+        value: 15.3
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.19644445
-        value: 0.98653376
-        inSlope: 1.1906971
-        outSlope: 1.1906971
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.24533333
-        value: 1.0857804
-        inSlope: -0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.34666643
-        value: 0.98653376
-        inSlope: -0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6524708
-        value: 0.98653376
-        inSlope: -0
-        outSlope: -0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.7223272
-        value: 0.88285524
-        inSlope: -0.85025454
-        outSlope: -0.85025454
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.81150126
-        value: 0.8635632
-        inSlope: 0.17247498
-        outSlope: 0.17247498
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 1
-        outWeight: 0.33333334
-      - serializedVersion: 3
         time: 1
-        value: 0.9175132
-        inSlope: -0
-        outSlope: -0
+        value: 15.3
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -3136,13 +3082,13 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 5
+    floatVal: 25
     curveVal:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 25
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3151,7 +3097,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 1
+        value: 25
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3195,13 +3141,13 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 12
+    floatVal: 80
     curveVal:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 80
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3210,7 +3156,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 1
+        value: 80
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3254,13 +3200,13 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 25.8
+    floatVal: 170
     curveVal:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 170
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3269,7 +3215,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 1
+        value: 170
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3313,13 +3259,13 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 50
+    floatVal: 265
     curveVal:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 265
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3328,7 +3274,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 1
+        value: 265
         inSlope: 0
         outSlope: 0
         tangentMode: 0

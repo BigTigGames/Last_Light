@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 9d63671d326a50f478691acf544a57dd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 326216
+  packageName: 'EASTLANDS : Stylized Asian Environment'
+  packageVersion: 1.21
+  assetPath: Assets/Polyart/PolyartStudio/SharedResources/Textures/Utility/Grid_02.png
+  uploadId: 853716
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +76,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -115,10 +122,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 326216
-  packageName: 'EASTLANDS : Stylized Asian Environment'
-  packageVersion: 1.21
-  assetPath: Assets/Polyart/PolyartStudio/SharedResources/Textures/Utility/Grid_02.png
-  uploadId: 853716

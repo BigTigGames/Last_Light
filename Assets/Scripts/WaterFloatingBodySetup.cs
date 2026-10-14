@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +28,12 @@ public class WaterFloatingBodySetup : MonoBehaviour
     [Tooltip("The WaterObject on your main lake/river mesh. Auto-resolved at Start if left null.")]
     public WaterObject targetWaterObject;
 
+    [Tooltip("Wave profile the CPU height query replicates. This MUST be assigned: with it null, " +
+             "HeightQuerySystem.Interface.HasMissingReferences() is true and the CPU path of " +
+             "AlignToWater.FixedUpdate() returns before ever applying a transform, so nothing floats. " +
+             "Use the same profile the water material uses.")]
+    public WaveProfile waveProfile;
+
     [Header("Prop Discovery")]
     [Tooltip("Root of the Props group to scan. Leave null to rely on tag alone.")]
     public Transform propsRoot;
@@ -48,6 +55,22 @@ public class WaterFloatingBodySetup : MonoBehaviour
     [Min(0f)]
     [Tooltip("Smoothing on position and rotation changes. Lower = more responsive.")]
     public float smoothing = 0.15f;
+
+    [Header("Per-Object Overrides")]
+    [Tooltip("Overrides 'Height Offset' for specific objects. Anything not listed uses the global value above.")]
+    public List<HeightOffsetOverride> heightOffsetOverrides = new List<HeightOffsetOverride>();
+
+    /// <summary>
+    /// A per-object exception to the global buoyancy height offset. Models whose mesh origin sits
+    /// at the waterline and models whose origin sits at the keel need different offsets, which a
+    /// single global value cannot express.
+    /// </summary>
+    [Serializable]
+    public class HeightOffsetOverride
+    {
+        public Transform target;
+        public float heightOffset;
+    }
 
     // Tracks every AlignToWater we own so we can reconfigure if settings change.
     private readonly List<AlignToWater> _managed = new List<AlignToWater>();
@@ -213,8 +236,13 @@ public class WaterFloatingBodySetup : MonoBehaviour
             ? targetWaterObject.transform.position.y
             : 0f;
 
+        // Without this the CPU height query early-returns every frame and no object is ever
+        // positioned (see HeightQuerySystem.Interface.HasMissingReferences). Only written when
+        // set, so a per-object profile authored in the scene is never clobbered by an empty field.
+        if (waveProfile != null) align.heightInterface.waveProfile = waveProfile;
+
         align.surfaceSize  = defaultSurfaceSize;
-        align.heightOffset = heightOffset;
+        align.heightOffset = ResolveHeightOffset(align.transform);
         align.rollAmount   = rollAmount;
         align.smoothing    = smoothing;
 
@@ -231,6 +259,20 @@ public class WaterFloatingBodySetup : MonoBehaviour
             rb.useGravity  = false;
             align.rigidbody = rb;
         }
+    }
+
+    /// <summary>
+    /// Returns the per-object offset override for this transform, or the global heightOffset
+    /// when the object is not listed.
+    /// </summary>
+    private float ResolveHeightOffset(Transform target)
+    {
+        foreach (HeightOffsetOverride o in heightOffsetOverrides)
+        {
+            if (o != null && o.target == target) return o.heightOffset;
+        }
+
+        return heightOffset;
     }
 
     /// <summary>

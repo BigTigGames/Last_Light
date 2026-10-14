@@ -76,3 +76,5 @@ crashlytics-build.properties
 *LightingData.asset
 *OcclusionCullingData.asset
 unstaged_files.txt
+
+/ProfilerCaptures/
