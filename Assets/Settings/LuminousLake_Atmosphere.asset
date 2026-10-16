@@ -778,7 +778,7 @@ MonoBehaviour:
       m_RotationOrder: 4
   fogColor1:
     overrideValue: 1
-    mode: 1
+    mode: 0
     colorVal: {r: 0.2924528, g: 0.19748245, b: 0.0758722, a: 0.0627451}
     gradientVal:
       serializedVersion: 2
@@ -1900,7 +1900,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 0.549
+    floatVal: 0.5
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -3023,7 +3023,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 1.67
+    floatVal: 1.14
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -3318,7 +3318,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 1
+    floatVal: 0.8
     curveVal:
       serializedVersion: 2
       m_Curve:
